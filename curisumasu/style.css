@@ -1,0 +1,895 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    /* background-image: url(./lpimgsdisuply/kurisumaturi.png); */
+}
+
+
+/* ========================================題名============================== */
+.main {
+    background-image: url(./imgs/kurisumasutury.jpg);
+    /* 背景画像 *
+    background-size: 100%;
+    /* 背景画像のサイズ */
+    height: 640px;
+    /* 高さ */
+    background-repeat: no-repeat;
+    /* リピートしないように */
+    color: #fff;
+    /* クラスmainの文字色の指定 */
+    border-bottom: 19px solid #DB5151;
+    max-width: 390px;
+}
+
+.main h1 {
+    margin-top: 0;
+    padding-top: 3rem;
+    padding-left: 1.5rem;
+    /* 行の余白 */
+    line-height: 5rem;
+
+    font-size: 50px;
+
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tin {
+
+    margin-left: 30px;
+    margin-right: 190px;
+}
+
+.box1 {
+    /* mainの文字色の変更 */
+    color: #000;
+    padding-left: 1.5rem;
+    line-height: 4rem;
+    background-color: #FFF193;
+    font-family: "Alike Angular", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tin2 {
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+.box2 {
+    /* mainの文字色の変更 */
+    color: #000;
+    /* padding-top: 5rem; */
+    padding-left: 1.5rem;
+    line-height: 4rem;
+    background-color: #FFF193;
+    letter-spacing: 2.1px;
+    font-family: "Alike Angular", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.kpt {
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+    display: flex;
+    gap: 10px;
+}
+
+.kpt::before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    transform: translateY(14px);
+}
+
+.kpt::after {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    transform: translateY(14px);
+}
+
+/* =====================================バー================================== */
+#bar{
+    background-color: 	SpringGreen;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+}
+
+
+
+
+/* ==================================ナーブギア================================ */
+.navu {
+    /* 背景画像とnavuの間隔の調整 */
+    margin-top: 20%;
+}
+
+.navumaintext {
+    text-align: center;
+    background-color: rgba(0, 145, 103, 0.7);
+    color: #fff;
+    margin: 0 50px 11px;
+    border-radius: 8px;
+    line-height: 40px;
+}
+
+/* 画像 */
+.nvumain {
+    width: 290px;
+    height: 300px;
+    padding-left: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.navu1 {
+    padding-left: 50px;
+    width: 90px;
+    height: 58px;
+    aspect-ratio: 1/1;
+}
+
+.navu2 {
+    padding-left: 7px;
+    width: 90px;
+    height: 58px;
+}
+
+/* .navu3 {
+    padding-left: 13px;
+    width: 99px;
+    height: 65px;
+} */
+
+.mini {
+    text-align: center;
+}
+
+/* 説明文 */
+.text {
+    margin-left: 34px;
+    margin-right: 34px;
+    font-size: 14px;
+}
+
+
+/* 販売価格のとこ */
+.navutext {
+    padding-left: 45px;
+    font-size: 1.7rem;
+    margin-bottom: 0px;
+}
+
+.price {
+    color: rgba(0, 101, 72, 0.96);
+    border-bottom: 1px solid #000;
+    font-size: 1.7rem;
+    /* padding-left: 45px; */
+    line-height: 1.6;
+    width: 80%;
+    margin-left: 45px;
+}
+
+.price2 {
+    color: rgba(0, 101, 72, 0.96);
+    border-bottom: 1px solid #000;
+    font-size: 1.7rem;
+    /* padding-left: 45px; */
+    line-height: 1.6;
+    width: 80%;
+    margin-left: 45px;
+}
+
+.navutext2 {
+    padding-left: 45px;
+}
+
+.navutext3 {
+    padding-left: 45px;
+    font-size: 1.7rem;
+    margin-bottom: 0px;
+}
+
+.endtext {
+    margin-bottom: 120px;
+    margin-left: 34px;
+    margin-right: 34px;
+    font-size: 14px;
+}
+
+
+/* ==================ポケモンぬいぐるみ======================== */
+
+.pokenuimaintext {
+    text-align: center;
+    background-color: rgba(0, 145, 103, 0.7);
+    color: #fff;
+    margin: 0 50px 11px;
+    border-radius: 8px;
+    line-height: 40px;
+}
+
+.pokenuimain {
+    width: 290px;
+    height: 300px;
+    padding-left: 50px;
+}
+
+.pokenui1 {
+    padding-left: 50px;
+    width: 90px;
+    height: 58px;
+}
+
+.pokenui2 {
+    padding-left: 7px;
+    width: 90px;
+    height: 58px;
+}
+
+.pokenuitext {
+    padding-left: 45px;
+    font-size: 1.7rem;
+    margin-bottom: 0px;
+}
+
+.pokenuitext2 {
+    padding-left: 45px;
+}
+
+.endtextpokenui {
+    margin-left: 34px;
+    margin-right: 34px;
+    font-size: 14px;
+    margin-bottom: 120px;
+}
+
+/* ===========================ポケットクラフトゲームソフト=========================== */
+
+.pokekuramaintext {
+    text-align: center;
+    background-color: rgba(0, 145, 103, 0.7);
+    color: #fff;
+    margin: 0 50px 11px;
+    border-radius: 8px;
+    line-height: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.pokekuramain {
+    width: 290px;
+    height: 300px;
+    padding-left: 50px;
+}
+
+.pokekura1 {
+    padding-left: 50px;
+    width: 90px;
+    height: 58px;
+}
+
+.pokekura2 {
+    padding-left: 7px;
+    width: 90px;
+    height: 58px;
+}
+
+.pokekuratext {
+    padding-left: 45px;
+    font-size: 1.7rem;
+    margin-bottom: 0px;
+}
+
+.pokekuratext2 {
+    padding-left: 45px;
+}
+
+.endtextpokekura {
+    margin-left: 34px;
+    margin-right: 34px;
+    font-size: 14px;
+    margin-bottom: 120px;
+}
+
+/* ==============================エヴァ================================== */
+
+.evamaintext {
+    text-align: center;
+    background-color: rgba(0, 145, 103, 0.7);
+    color: #fff;
+    margin: 0 50px 11px;
+    border-radius: 8px;
+    line-height: 40px;
+}
+
+.evamain {
+    width: 290px;
+    height: 300px;
+    padding-left: 50px;
+}
+
+.eva1 {
+    padding-left: 50px;
+    width: 90px;
+    height: 58px;
+}
+
+.eva2 {
+    padding-left: 7px;
+    width: 90px;
+    height: 58px;
+}
+
+.evatext {
+    padding-left: 45px;
+    font-size: 1.7rem;
+    margin-bottom: 0px;
+}
+
+.endtexteva {
+    margin-left: 34px;
+    margin-right: 34px;
+    font-size: 14px;
+    margin-bottom: 120px;
+}
+
+/* ===================================ライトセーバー=============================== */
+
+.raitomaintext {
+    text-align: center;
+    background-color: rgba(0, 145, 103, 0.7);
+    color: #fff;
+    margin: 0 50px 11px;
+    border-radius: 8px;
+    line-height: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.raitomain {
+    width: 290px;
+    height: 300px;
+    padding-left: 50px;
+}
+
+.raito1 {
+    padding-left: 50px;
+    width: 90px;
+    height: 58px;
+}
+
+.raito2 {
+    padding-left: 7px;
+    width: 90px;
+    height: 58px;
+}
+
+.raitotext {
+    padding-left: 45px;
+    font-size: 1.7rem;
+    margin-bottom: 0px;
+}
+
+.raitotext2 {
+    padding-left: 45px;
+}
+
+.raitotext3 {
+    margin-left: 34px;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.endtextraito {
+    margin-left: 34px;
+    margin-right: 34px;
+    font-size: 14px;
+    margin-bottom: 120px;
+}
+
+/* ======================================SNS==================================== */
+
+.sns {
+    font-family: "Buenard", serif;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 15px;
+    display: flex;
+    gap: 45px;
+}
+
+.sns::before {
+    content: "";
+    width: 82px;
+    height: 1px;
+    background-color: #000;
+    display: block;
+    transform: translateY(24px);
+    margin-left: 25px;
+}
+
+.sns::after {
+    content: "";
+    width: 82px;
+    height: 1px;
+    background-color: #000;
+    display: block;
+    transform: translateY(24px);
+}
+
+.snsicon {
+    margin-left: 89px;
+    margin-bottom: 50px;
+}
+
+.small {
+    /* margin-left: 130px; */
+    background-color: #F06060;
+    color: #fff;
+    font-size: 22px;
+    background-size: 100%;
+    padding: 20px 99.6px 20px;
+}
+
+/* デスクトップver */
+@media(min-width:982px) {
+    .main {
+        background-image: url(./imgs/desukutopmaintry.jpg);
+        /* 背景画像のサイズ */
+        height: 924px;
+        /* 高さ */
+        background-repeat: no-repeat;
+        /* リピートしないように */
+        color: #fff;
+        /* クラスmainの文字色の指定 */
+        border-bottom: 19px solid #DB5151;
+        max-width: 1920px;
+        width: 100%;
+        background-size: 100%;
+    }
+
+    .main h1 {
+        margin-top: 0;
+        padding-top: 3rem;
+        padding-left: 1.5rem;
+        /* 行の余白 */
+        line-height: 10rem;
+
+        font-size: 100px;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .tin {
+        margin-left: 30px;
+        margin-right: 190px;
+    }
+
+    .box1 {
+        /* mainの文字色の変更 */
+        color: #000;
+        padding-left: 1.5rem;
+        line-height: 6rem;
+        background-color: #FFF193;
+        font-family: "Alike Angular", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 61px;
+        max-width: 350px;
+    }
+
+    .tin2 {
+        margin-left: 30px;
+        margin-right: 100px;
+    }
+
+    .box2 {
+        /* mainの文字色の変更 */
+        color: #000;
+        /* padding-top: 5rem; */
+        padding-left: 1.5rem;
+        line-height: 6rem;
+        background-color: #FFF193;
+        letter-spacing: 2.1px;
+        font-family: "Alike Angular", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 61px;
+        max-width: 627px;
+    }
+
+    .kpt {
+        padding-top: 5.5rem;
+        padding-left: 15rem;
+        display: flex;
+        gap: 74px;
+        font-size: 32px;
+    }
+
+    .kpt::before {
+        content: "";
+        width: 200px;
+        height: 2px;
+        background-color: #fff;
+        display: block;
+        transform: translateY(25px);
+    }
+
+    .kpt::after {
+        content: "";
+        width: 200px;
+        height: 2px;
+        background-color: #fff;
+        display: block;
+        transform: translateY(25px);
+    }
+
+
+    /* ===================================nav=================================== */
+    .navu {
+        /* 背景画像とnavuの間隔の調整 */
+        margin-top: 8%;
+    }
+
+    .navumaintext {
+        text-align: center;
+        background-color: rgba(0, 145, 103, 0.7);
+        color: #fff;
+        margin: 0 110px 11px;
+        border-radius: 8px;
+        line-height: 59px;
+        font-size: 30px;
+    }
+
+    /* 画像 */
+    .nvumain {
+        width: 440px;
+        height: 440px;
+        padding-left: 110px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .navu1 {
+        padding-left: 108px;
+        width: 141px;
+        height: 93px;
+        aspect-ratio: 1/1;
+    }
+
+    .navu2 {
+        padding-left: 7px;
+        width: 141px;
+        height: 93px;
+    }
+
+    /* ナブの金額や詳細説明 */
+    .all_wrapper {
+        display: flex;
+    }
+
+    .mini {
+        text-align: center;
+        font-size: 30px;
+        margin-left: 18px;
+    }
+
+    /* 説明文 */
+    .text {
+        margin-left: 45px;
+        margin-right: 34px;
+        font-size: 17px;
+    }
+
+
+    /* 販売価格のとこ */
+    .navutext {
+        padding-left: 45px;
+        font-size: 1.7rem;
+        margin-bottom: 0px;
+    }
+
+    .price {
+        color: rgba(0, 101, 72, 0.96);
+        border-bottom: 1px solid #000;
+        font-size: 1.7rem;
+        /* padding-left: 45px; */
+        line-height: 1.6;
+        width: 80%;
+        margin-left: 45px;
+    }
+
+    .price2 {
+        color: rgba(0, 101, 72, 0.96);
+        border-bottom: 1px solid #000;
+        font-size: 1.7rem;
+        /* padding-left: 45px; */
+        line-height: 1.6;
+        width: 80%;
+        margin-left: 45px;
+    }
+
+    .navutext2 {
+        padding-left: 45px;
+        font-size: 30px;
+        margin-left: -5px;
+    }
+
+    .navutext3 {
+        padding-left: 45px;
+        font-size: 1.7rem;
+        margin-bottom: 0px;
+    }
+
+    .endtext {
+        margin-bottom: 120px;
+        margin-left: 107px;
+        margin-right: 117px;
+        font-size: 18px;
+    }
+
+    .alls_wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* ==================ポケモンぬいぐるみ======================== */
+
+    .pokenuimaintext {
+        text-align: center;
+        background-color: rgba(0, 145, 103, 0.7);
+        color: #fff;
+        /* margin: 0 506px 11px; */
+        border-radius: 8px;
+        line-height: 40px;
+        font-size: 20px;
+        margin-left: 104px;
+    }
+
+    .pokenuiallimg {
+        margin-left: 53px;
+    }
+
+    .pokenuitext_wrapper {}
+
+    .pokenuimain {
+        width: 290px;
+        height: 300px;
+        padding-left: 102px;
+    }
+
+    .pokenui1 {
+        padding-left: 102px;
+        width: 90px;
+        height: 58px;
+    }
+
+    .pokenui2 {
+        padding-left: 6px;
+        width: 90px;
+        height: 58px;
+    }
+
+    .pokenuitext {
+        padding-left: 45px;
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+        margin-top: 0;
+    }
+
+    .pokenuitext2 {
+        padding-left: 45px;
+    }
+
+    .endtextpokenui {
+        margin-left: 100px;
+        margin-right: 58px;
+        font-size: 16px;
+        margin-bottom: 120px;
+    }
+
+    /* ======================================ポケクラ=================================== */
+    .pokekuramaintext {
+        text-align: center;
+        background-color: rgba(0, 145, 103, 0.7);
+        color: #fff;
+        /* margin: 0 50px 11px; */
+        border-radius: 8px;
+        line-height: 60px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .pokekuramain {
+        width: 290px;
+        height: 300px;
+        padding-left: 50px;
+    }
+
+    .pokekura1 {
+        padding-left: 50px;
+        width: 90px;
+        height: 58px;
+    }
+
+    .pokekura2 {
+        padding-left: 7px;
+        width: 90px;
+        height: 58px;
+    }
+
+    .pokekuratext {
+        padding-left: 45px;
+        font-size: 1.7rem;
+        margin-bottom: 0px;
+        margin-top: 0;
+    }
+
+    .pokekuratext2 {
+        padding-left: 45px;
+    }
+
+    .endtextpokekura {
+        margin-left: 34px;
+        margin-right: 34px;
+        font-size: 16px;
+        margin-bottom: 120px;
+    }
+
+    /* ===================================エヴァ====================================== */
+    .evamaintext {
+        text-align: center;
+        background-color: rgba(0, 145, 103, 0.7);
+        color: #fff;
+        margin: 0 50px 11px;
+        border-radius: 8px;
+        line-height: 40px;
+    }
+
+    .evamain {
+        width: 290px;
+        height: 300px;
+        padding-left: 50px;
+    }
+
+    .eva1 {
+        padding-left: 50px;
+        width: 90px;
+        height: 58px;
+    }
+
+    .eva2 {
+        padding-left: 7px;
+        width: 90px;
+        height: 58px;
+    }
+
+    .evatext {
+        padding-left: 45px;
+        font-size: 1.7rem;
+        margin-bottom: 0px;
+        margin-top: 0;
+    }
+
+    .endtexteva {
+        margin-left: 34px;
+        margin-right: 34px;
+        font-size: 16px;
+        margin-bottom: 120px;
+    }
+
+    /* ===========================================ライトセーバ============================================== */
+    .raitomaintext {
+        text-align: center;
+        background-color: rgba(0, 145, 103, 0.7);
+        color: #fff;
+        margin: 0 50px 11px;
+        border-radius: 8px;
+        line-height: 60px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .raitomain {
+        width: 290px;
+        height: 300px;
+        padding-left: 50px;
+    }
+
+    .raito1 {
+        padding-left: 50px;
+        width: 90px;
+        height: 58px;
+    }
+
+    .raito2 {
+        padding-left: 7px;
+        width: 90px;
+        height: 58px;
+    }
+
+    .raitotext {
+        padding-left: 45px;
+        font-size: 1.7rem;
+        margin-bottom: 0px;
+        margin-top: 0;
+    }
+
+    .raitotext2 {
+        padding-left: 45px;
+    }
+
+    .raitotext3 {
+        margin-left: 34px;
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .endtextraito {
+        margin-left: 34px;
+        margin-right: 34px;
+        font-size: 16px;
+        margin-bottom: 120px;
+    }
+
+    /* =================================sns========================================= */
+    .sns {
+        font-family: "Buenard", serif;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 15px;
+        display: flex;
+        /* gap: 45px; */
+        /* padding-left: 29rem; */
+        justify-content: space-evenly;
+    }
+
+    .sns::before {
+        content: "";
+        width: 82px;
+        height: 1px;
+        background-color: #000;
+        display: block;
+        transform: translateY(24px);
+        margin-left: 25px;
+    }
+
+    .sns::after {
+        content: "";
+        width: 82px;
+        height: 1px;
+        background-color: #000;
+        display: block;
+        transform: translateY(24px);
+    }
+
+    .snsicon {
+        margin-left: 34.8rem;
+        margin-bottom: 50px;
+    }
+
+    footer{
+        background-color: #F06060;
+        color: #fff;
+        font-size: 22px;
+        background-size: 100%;
+        width: 100%;
+        text-align: center;
+        font-size: 33px;
+        /* padding: 15px; */
+    }
+}
